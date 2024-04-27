@@ -74,3 +74,36 @@ img {
 }
 
                      inline vs block elements
+inline = next to each other
+
+block= stacks on top- blocks out the rest of the horizonral space.
+eg.
+/*
+Challenge: 
+Turn the elements into blocks!
+*/
+
+img {
+    width: 300px;
+    display: block;
+    margin-top: 100px;
+}
+
+input {
+    width: 400px;
+    display: block;
+}
+
+                    MarginTop
+space above elements
+uses a px value
+    /* Challenge: 
+    Add some space (margin) above our image!
+    Do you remember how we added spacing in the 
+    cookie widget example?
+    */
+img {
+    display: block;
+    width: 300px;
+    margin-top: 10px;
+}
