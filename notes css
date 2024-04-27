@@ -1,0 +1,76 @@
+          CSS 
+
+       //first lines
+<html>
+    <head>
+        <style>
+        body {
+            background: yellow;     /* red, blue, yellow, etc */
+            color: red;            /* red, blue, yellow, etc */
+            font-size: 20px;        /* 0px - 100px and beyond */
+            font-weight: lighter;   /* lighter, normal, bold  */
+            text-align: right;      /* left, center or right  */ 
+            margin-top: 5px;        /* From 0px and upwards   */
+        }        
+        </style>
+    </head>
+    <body>
+           Please accept our cookies!
+    </body> 
+</html>
+
+SELECTOR- css works by targetting certain elements
+on the page (html elements) and then styling them.
+
+eg.
+body {
+    color: red;
+}
+within the curly braces you have 
+PROPERTIES (color, font, margin)
+and
+VALUES (red, calibri, 2px)
+
+
+             hex codes
+ hexidecimal colours
+ eg. saddlebrown is #8b4513,
+      8b= red   45= green    13= blue   
+
+
+                 Google clonesite
+<html>
+    <head> 
+    external- <link rel="stylesheet" href="name of file and location"  
+        <style>
+        input {
+            width: 400px;
+        }
+        img {
+            width 350px;
+        }
+
+        </style>
+    </head>
+    <body>
+        <img src="google.png" />
+        <input type="text" />
+    </body>
+</html>
+
+                   Setting width of elements
+/*
+Challenge:
+Select the img tag and set the width 
+of the Google logo to be 300px.
+*/
+target element and then style
+
+input {
+    width: 400px;
+}
+img {
+    width 350px;
+}
+
+                     inline vs block elements
